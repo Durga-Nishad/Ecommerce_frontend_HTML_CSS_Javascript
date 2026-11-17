@@ -1,0 +1,32 @@
+body{
+    height:100vh;
+}
+
+header{
+    height : 15%;
+}
+main{
+    height: 85%;
+}
+
+
+#categories{
+    display:flex;
+    justify-content: space-evenly;
+    width:80%;
+    margin:40px auto;
+}
+
+#category img{
+    border-radius: 50%;
+    box-shadow: 0 0 10px green;
+}
+
+#category h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#category img:hover{
+    border: 3px solid red;
+}
